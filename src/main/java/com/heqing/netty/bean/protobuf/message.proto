@@ -1,0 +1,12 @@
+package com.heqing.netty.bean.protobuf;
+option java_package = "com.heqing.netty.bean.protobuf"; 
+option java_outer_classname = "ProtobufProto"; 
+message testBuf  { 
+  required int64 id = 1; 
+  required int64 receiveId = 2; 
+  required int64 sendId = 3;
+  required string content= 4;
+  required int32 type = 5;
+  required int32 state = 6;
+  required int64 createTime = 7;
+}
